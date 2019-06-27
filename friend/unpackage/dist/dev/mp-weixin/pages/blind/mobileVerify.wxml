@@ -1,0 +1,2 @@
+<import src="./mobileVerify.vue.wxml" />
+    <template is="2b7fbeae" data="{{ ...$root['0'], $root }}"/>

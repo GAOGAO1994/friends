@@ -1,0 +1,1 @@
+<template name="4abb8688"><view class="_view M4abb8688 content"><view class="_view M4abb8688">支付结果</view><view class="_view M4abb8688 padding-h margin-top"><button class="_button M4abb8688 primary" bindtap="handleProxy" data-eventid="{{'4abb8688-0'}}" data-comkey="{{$k}}">立即支付</button></view></view></template>

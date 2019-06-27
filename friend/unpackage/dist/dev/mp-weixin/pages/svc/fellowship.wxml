@@ -1,0 +1,2 @@
+<import src="./fellowship.vue.wxml" />
+    <template is="0c41616b" data="{{ ...$root['0'], $root }}"/>

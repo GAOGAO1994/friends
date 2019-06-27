@@ -1,0 +1,120 @@
+
+.content{
+	width:100%;
+}
+.header text{
+	color: black;
+}
+.name-wrap{
+	margin-right: 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.name-wrap text{
+	font-size:14px;
+	font-weight: normal;
+	margin-right: 10rpx;
+}
+.header .name-wrap image{
+	width: 80rpx;
+	height: 80rpx;
+	border-radius:40rpx;
+}
+.hobby-wrap{
+	margin-top: 20rpx;
+	margin-bottom:  40rpx;
+}
+.my-hobby{
+	border: 1px dashed #999999;
+	border-radius: 15rpx;
+	padding: 40rpx;
+	padding-top: 10rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.hobby-wrap .text{
+	color: #999999;
+	padding: 30rpx 0;
+}
+.hobby-wrap .tag{
+	border: 1px solid #666666;
+	border-radius: 100rpx;
+	padding: 15rpx 40rpx;
+	margin-right: 40rpx;
+	margin-top: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	font-size: 12px;
+}
+.hobby-wrap .last{
+	margin-right: 0;
+}
+.all-hobby{
+	border: 1px dashed #999999;
+	border-radius: 15rpx;
+	padding: 40rpx;
+	padding-top: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.all-hobby .category{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.all-hobby .category .title{
+	font-weight: 900;
+	padding-top: 40rpx;
+	padding-bottom: 10rpx;
+}
+.all-hobby .category .tags{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.all-hobby .tag{
+	border: 1px dashed #666666;
+}
+.all-hobby .category .selected{
+	background-color: #ded4ff;
+	color: #7667a5;
+	border: 0;
+}
+.margin-right{
+	margin-right:30rpx;
+}
+
+

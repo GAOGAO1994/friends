@@ -1,0 +1,110 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/college/college",
+    "pages/blind/self",
+    "pages/blind/everybody",
+    "pages/blind/everybodyIntro",
+    "pages/blind/work",
+    "pages/blind/important",
+    "pages/blind/vip",
+    "pages/blind/mobileVerify",
+    "pages/login/login",
+    "pages/login/pwd",
+    "pages/reg/reg",
+    "pages/reg/mobileVerify",
+    "pages/reg/avatarUpload",
+    "pages/member/members",
+    "pages/member/member",
+    "pages/member/detail",
+    "pages/member/follow",
+    "pages/member/invite",
+    "pages/member/appointment",
+    "pages/form/apply",
+    "pages/form/applySign",
+    "pages/form/kefu",
+    "pages/activity/sign",
+    "pages/activity/activities",
+    "pages/activity/activity",
+    "pages/activity/members",
+    "pages/activity/activityPictures",
+    "pages/activity/payment",
+    "pages/activity/paymentResult",
+    "pages/activity/alipay",
+    "pages/activity/wxpay",
+    "pages/svc/svc",
+    "pages/svc/matchmaker",
+    "pages/svc/emotion-counseling",
+    "pages/svc/fellowship",
+    "pages/message/message",
+    "pages/message/messageList",
+    "pages/blind/blind",
+    "pages/publish/publish",
+    "pages/article/articles",
+    "pages/article/article",
+    "pages/user/user",
+    "pages/user/detail",
+    "pages/user/hobby",
+    "pages/user/requirement",
+    "pages/user/attentionActivity",
+    "pages/user/album",
+    "pages/user/appointments",
+    "pages/user/setting",
+    "pages/user/about",
+    "pages/user/feedback",
+    "pages/user/qrcode",
+    "pages/user/follow",
+    "pages/user/vip",
+    "pages/payment/payment",
+    "pages/manage/manage",
+    "pages/manage/matchmaker",
+    "pages/manage/recommend",
+    "pages/statement/serviceAgreement",
+    "pages/statement/privacyPolicy"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#0faeff",
+    "backgroundColor": "#fbf9fe",
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#7558ff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/img/icons/icon-home.png",
+        "selectedIconPath": "static/img/icons/icon-home-selected.png"
+      },
+      {
+        "pagePath": "pages/svc/svc",
+        "text": "服务",
+        "iconPath": "static/img/icons/icon-service.png",
+        "selectedIconPath": "static/img/icons/icon-service-selected.png"
+      },
+      {
+        "pagePath": "pages/blind/blind",
+        "text": "阅见",
+        "iconPath": "static/img/icons/icon-logo.png",
+        "selectedIconPath": "static/img/icons/icon-logo.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "static/img/icons/icon-message.png",
+        "selectedIconPath": "static/img/icons/icon-message-selected.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/img/icons/icon-my.png",
+        "selectedIconPath": "static/img/icons/icon-my-selected.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+@font-face {
+	font-family: iconfont;
+	font-weight: normal;
+	font-style: normal;
+	src: url('iconfont.ttf?t=1550390916085') format('truetype');
+}
+
+.f-icon {
+	font-family: iconfont;
+	font-size: 48upx;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1;
+	display: inline-block;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* 编辑 */
+.f-icon-modify:before {
+    content: "\e604";
+}
+
+/* 资料信息 */
+.f-icon-info:before {
+    content: "\e60b";
+}
+
+/* 二维码 */
+.f-icon-qrcode:before {
+    content: "\e646";
+}
+
+/* 右箭头 */
+.f-icon-arrow-right:before {
+    content: "\e770";
+}
+
+/* 关于 */
+.f-icon-about:before {
+    content: "\e602";
+}
+
+/* 微信支付 */
+.f-icon-wxpay:before {
+    content: "\e65a";
+}
+
+/* 支付宝支付 */
+.f-icon-alipay:before {
+    content: "\e65f";
+}
+
+/* 收益 */
+.f-icon-income:before {
+    content: "\e638";
+}
+
+/* 下拉选择箭头 */
+.f-icon-dropdown:before {
+    content: "\e64a";
+}
+
+/* 返回 */
+.f-icon-back:before {
+    content: "\e63b";
+}
+
+/* 编辑 */
+.f-icon-edit2:before {
+    content: "\e623";
+}
+
+/* 切换用户 */
+.f-icon-user-switch:before {
+    content: "\e637";
+}
+
+/* 对勾 */
+.f-icon-tick:before {
+    content: "\e633";
+}
+
+/* 上传 */
+.f-icon-upload:before {
+    content: "\e641";
+}
+
+/* 移除 */
+.f-icon-remove:before {
+    content: "\e632";
+}
+
+/* 新建 */
+.f-icon-new:before {
+    content: "\e630";
+}
+
+/* 播放 */
+.f-icon-video:before {
+    content: "\e6cf";
+}
+
+/* 编辑 */
+.f-icon-edit:before {
+    content: "\e659";
+}
+
+/* 退出 */
+.f-icon-exit:before {
+    content: "\e62e";
+}
+
+/* 设置 */
+.f-icon-setting:before {
+    content: "\e647";
+}
+
+/* 锁 */
+.f-icon-lock:before {
+    content: "\e620";
+}
+
+/* 隐私 */
+.f-icon-conceal:before {
+    content: "\e676";
+}
+
+.f-icon-consult:before {
+    content: "\e60a";
+}
+
+.f-icon-invite:before {
+    content: "\e605";
+}
+
+.f-icon-close:before {
+    content: "\e635";
+}
+
+.f-icon-eye:before {
+    content: "\e606";
+}
+
+.f-icon-share:before {
+    content: "\e634";
+}
+
+.f-icon-thumbs-up:before {
+    content: "\e60c";
+}
+
+.f-icon-clock:before {
+    content: "\e811";
+}
+
+.f-icon-location:before {
+    content: "\e76f";
+}
+
+.f-icon-money:before {
+    content: "\e607";
+}
+
+.f-icon-vip:before {
+    content: "\e688";
+}
+
+.f-icon-contact:before {
+    content: "\e77a";
+}
+
+.f-icon-attention:before {
+    content: "\e662";
+}
+
+.f-icon-filter:before {
+    content: "\e631";
+}
+
+.f-icon-male:before {
+    content: "\e675";
+}
+
+.f-icon-female:before {
+    content: "\e6e3";
+}
+
+.f-icon-heart:before {
+    content: "\e7a9";
+}
+
+.f-icon-user-group:before {
+    content: "\e640";
+}
+
+.f-icon-photo:before {
+    content: "\e639";
+	background: -webkit-linear-gradient(left bottom, #fffafd , #ffe2f0); 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.f-icon-add:before {
+    content: "\e600";
+}

@@ -1,0 +1,1 @@
+<template name="c73bee24"><view class="_view Mc73bee24 content"><view class="_view Mc73bee24 padding-h"><view class="_view Mc73bee24 header"><text class="_text Mc73bee24">服务条款</text></view><view class="_view Mc73bee24 statement-wrap">{{statement}}</view></view></view></template>

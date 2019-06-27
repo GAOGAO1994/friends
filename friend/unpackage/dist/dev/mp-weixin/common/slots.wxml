@@ -1,0 +1,16 @@
+<import src="/components/m-input.vue.wxml" />
+<import src="/components/m-icon/f-icon.vue.wxml" />
+<import src="/components/login-modal/login-modal.vue.wxml" />
+<import src="/components/preview/image-preview.vue.wxml" />
+<import src="/components/m-icon/m-icon.vue.wxml" />
+<import src="/components/enroll/enroll.vue.wxml" />
+<import src="/components/mpvue-picker/mpvueCityPicker.vue.wxml" />
+<import src="/components/m-input-right.vue.wxml" />
+<import src="/components/mpvue-picker/mpvuePicker.vue.wxml" />
+<import src="/components/user-switch/activity-picker.vue.wxml" />
+<import src="/components/guide/guide.vue.wxml" />
+<import src="/components/form/text.vue.wxml" />
+<import src="/components/form/age.vue.wxml" />
+<import src="/components/user-switch/user-switch.vue.wxml" />
+<import src="/common/slots.wxml" />
+

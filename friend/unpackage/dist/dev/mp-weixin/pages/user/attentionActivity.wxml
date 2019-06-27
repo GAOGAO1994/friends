@@ -1,0 +1,2 @@
+<import src="./attentionActivity.vue.wxml" />
+    <template is="b9cda1fc" data="{{ ...$root['0'], $root }}"/>

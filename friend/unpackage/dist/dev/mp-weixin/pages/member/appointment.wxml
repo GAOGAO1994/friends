@@ -1,0 +1,2 @@
+<import src="./appointment.vue.wxml" />
+    <template is="b6b8dbba" data="{{ ...$root['0'], $root }}"/>

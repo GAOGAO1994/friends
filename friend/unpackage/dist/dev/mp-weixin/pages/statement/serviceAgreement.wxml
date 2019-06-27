@@ -1,0 +1,2 @@
+<import src="./serviceAgreement.vue.wxml" />
+    <template is="c73bee24" data="{{ ...$root['0'], $root }}"/>

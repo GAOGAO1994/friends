@@ -1,0 +1,104 @@
+
+.content{
+	width:100%;
+}
+.activity-wrap{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.date-wrap{
+	height: 24rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.date-wrap image{
+	width: 32rpx;
+	height: 32rpx;
+}
+.date-wrap .date{
+	margin-left: 20rpx;
+	margin-bottom: 4px;
+	font-size: 14px;
+}
+.list-wrap{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.list-wrap .left-line{
+	width: 84rpx;
+	min-width: 84rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.list-wrap .left-line .v-line{
+	width: 1px;
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1;
+	margin-left: 16rpx;
+	content: '';
+	-webkit-transform: scaleX(.5);
+	-ms-transform: scaleX(.5);
+	    transform: scaleX(.5);
+	background-color: #c8c7cc;
+}
+.list-wrap .right-content{
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.list-wrap .right-content .text{
+	line-height: 32px;
+	font-size: 14px;
+	font-weight: 900;
+	color: #6d5eb3;
+	margin-top: 20rpx;
+}
+.list-wrap .right-content .picture-wrap{
+}
+.list-wrap .right-content .picture-wrap .desc{
+	line-height: 24px;
+}
+.list-wrap .right-content .picture-wrap image{
+	width: 586rpx;
+	margin-top: 20rpx;
+	margin-bottom: 40rpx;
+	border-radius: 10rpx;
+}
+
+
+
+

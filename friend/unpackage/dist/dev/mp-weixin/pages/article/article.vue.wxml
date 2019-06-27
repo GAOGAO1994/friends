@@ -1,0 +1,1 @@
+<template name="6bb55504"><view class="_view M6bb55504 content"><view class="_view M6bb55504 padding-h"><web-view class="_web-view M6bb55504 web" src="{{article.link}}" style></web-view></view></view></template>

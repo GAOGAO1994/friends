@@ -1,0 +1,2 @@
+<import src="./everybodyIntro.vue.wxml" />
+    <template is="8cefd13c" data="{{ ...$root['0'], $root }}"/>

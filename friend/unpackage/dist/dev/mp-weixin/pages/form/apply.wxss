@@ -1,0 +1,191 @@
+
+.content{
+	width:100%;
+}
+.header text{
+	color: black;
+}
+.remind{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.remind text{
+	margin-left: 10rpx;
+}
+.form-wrap{
+}
+.form-wrap .item-title{
+	/* font-size:18px; */
+}
+.form-wrap .item-wrap{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 40rpx 0;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.form-wrap .input-wrap{
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	margin-right: 40rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.form-wrap .input-wrap text{
+    font-size:18px;
+}
+.m-input {
+    font-size:18px;
+	font-weight: bold;
+}
+.textarea-wrap{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+textarea{
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1;
+	border-radius: 15rpx;
+	padding: 15rpx;
+	margin-right: 40rpx;
+	/* border: 1px solid #dcdcdc; */
+	background-color: #F2F2F2;
+}
+.form-wrap .submit-wrap{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	padding: 40rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.form-wrap .submit-wrap .button{
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding: 20rpx 0;
+	color: white;
+	font-size:14px;
+	border-radius: 80rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fe8dc8), to(#fc597b));
+	background: -o-linear-gradient(top, #fe8dc8, #fc597b);
+	background: linear-gradient(to bottom, #fe8dc8, #fc597b); /* 标准的语法 */
+}
+.hand-wrap{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 20rpx 0rpx;
+}
+.hand-wrap .item{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.hand-wrap .avatar{
+	width:100rpx;
+	height:100rpx;
+	border-radius: 60rpx;
+}
+.hand-wrap .love{
+	width:200rpx;
+	max-height:80rpx;
+}
+.hand-wrap .name{
+	margin-top: 10rpx;
+}
+.hand-wrap .space{
+	width: 40rpx;
+}
+.statement{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.statement .link{
+	text-decoration: underline;
+}
+
+

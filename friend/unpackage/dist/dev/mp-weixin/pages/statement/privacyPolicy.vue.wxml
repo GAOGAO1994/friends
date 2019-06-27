@@ -1,0 +1,1 @@
+<template name="ae3ba93e"><view class="_view Mae3ba93e content"><view class="_view Mae3ba93e padding-h"><view class="_view Mae3ba93e header"><text class="_text Mae3ba93e">隐私政策</text></view><view class="_view Mae3ba93e statement-wrap">{{statement}}</view></view></view></template>

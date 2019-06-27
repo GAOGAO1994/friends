@@ -1,0 +1,213 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页,
+        {
+            "path": "pages/index/index"
+        }, {
+            "path": "pages/college/college"
+        }, {
+			"path": "pages/blind/self"
+        }, {
+			"path": "pages/blind/everybody"
+        }, {
+			"path": "pages/blind/everybodyIntro"
+        }, {
+			"path": "pages/blind/work"
+        }, {
+			"path": "pages/blind/important"
+        }, {
+			"path": "pages/blind/vip"
+        }, {
+			"path": "pages/blind/mobileVerify"
+        }, {
+            "path": "pages/login/login"
+        }, {
+            "path": "pages/login/pwd",
+            "style": {
+            	"navigationStyle":"default",
+            	"navigationBarBackgroundColor":"#ae74ff",
+            	"navigationBarTextStyle":"white",
+            	"navigationBarTitleText": "找回密码"
+            }
+        }, {
+            "path": "pages/reg/reg"
+        }, {
+            "path": "pages/reg/mobileVerify"
+        }, {
+            "path": "pages/reg/avatarUpload"
+        }, {
+            "path": "pages/member/members"
+        }, {
+            "path": "pages/member/member"
+        }, {
+            "path": "pages/member/detail"
+        }, {
+            "path": "pages/member/follow"
+        }, {
+            "path": "pages/member/invite"
+        }, {
+            "path": "pages/member/appointment"
+        }, {
+			"path": "pages/form/apply"
+        }, {
+			"path": "pages/form/applySign"
+        }, {
+			"path": "pages/form/kefu"
+        }, {
+            "path": "pages/activity/sign"
+        },{
+            "path": "pages/activity/activities"
+        }, {
+            "path": "pages/activity/activity"
+        }, {
+            "path": "pages/activity/members"
+        }, {
+            "path": "pages/activity/activityPictures"
+        },{
+            "path": "pages/activity/payment"
+        },{
+            "path": "pages/activity/paymentResult"
+        },{
+            "path": "pages/activity/alipay"
+        },{
+            "path": "pages/activity/wxpay"
+        }, {
+            "path": "pages/svc/svc"
+        }, {
+            "path": "pages/svc/matchmaker"
+        }, {
+            "path": "pages/svc/emotion-counseling"
+        }, {
+            "path": "pages/svc/fellowship"
+        },{
+            "path": "pages/message/message"
+        },{
+            "path": "pages/message/messageList"
+        }, {
+            "path": "pages/blind/blind"
+        }, {
+            "path": "pages/publish/publish"
+        }, {
+			"path": "pages/article/articles"
+        }, {
+			"path": "pages/article/article",
+			"style": {
+				"navigationBarBackgroundColor":"#fc597b",
+				"navigationBarTitleText": "返回"//设置页面标题文字
+			}
+        }, {
+            "path": "pages/user/user"
+        }, {
+			"path": "pages/user/detail"
+        }, {
+			"path": "pages/user/hobby"
+        }, {
+			"path": "pages/user/requirement"
+        }, {
+			"path": "pages/user/attentionActivity"
+        }, {
+			"path": "pages/user/album"
+        }, {
+			"path": "pages/user/appointments"
+        }, {
+			"path": "pages/user/setting"
+			/* "style": {
+				"navigationStyle":"default",
+				"navigationBarBackgroundColor":"#ae74ff",
+				"navigationBarTextStyle":"white",
+				"navigationBarTitleText": "设置"
+			} */
+        }, {
+			"path": "pages/user/about",
+			"style": {
+				"navigationStyle":"default",
+				"navigationBarBackgroundColor":"#ae74ff",
+				"navigationBarTextStyle":"white",
+				"navigationBarTitleText": "关于"
+			}
+        }, {
+			"path": "pages/user/feedback",
+			"style": {
+				"navigationStyle":"default",
+				"navigationBarBackgroundColor":"#ae74ff",
+				"navigationBarTextStyle":"white",
+				"navigationBarTitleText": "意见反馈"
+			}
+        }, {
+			"path": "pages/user/qrcode",
+			"style": {
+				"navigationStyle":"default",
+				"navigationBarBackgroundColor":"#ae74ff",
+				"navigationBarTextStyle":"white",
+				"navigationBarTitleText": "二维码"
+			}
+        }, {
+			"path": "pages/user/follow"
+        }, {
+			"path": "pages/user/vip"
+        }, {
+            "path": "pages/payment/payment"
+        }, {
+			"path": "pages/manage/manage"
+        }, {
+			"path": "pages/manage/matchmaker"
+        }, {
+			"path": "pages/manage/recommend"
+        },{
+			"path": "pages/statement/serviceAgreement",
+			"style": {
+				"navigationStyle":"default",
+				"navigationBarBackgroundColor":"#ae74ff",
+				"navigationBarTextStyle":"white",
+				"navigationBarTitleText": "服务条款"
+			}
+        },{
+			"path": "pages/statement/privacyPolicy",
+			"style": {
+				"navigationStyle":"default",
+				"navigationBarBackgroundColor":"#ae74ff",
+				"navigationBarTextStyle":"white",
+				"navigationBarTitleText": "隐私政策"
+			}
+        }
+    ],
+    "tabBar": {
+        "color": "#7a7e83",
+        "selectedColor": "#7558ff",
+        "backgroundColor": "#ffffff",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "text": "首页",
+            "iconPath": "static/img/icons/icon-home.png",
+            "selectedIconPath": "static/img/icons/icon-home-selected.png"
+        }, {
+            "pagePath": "pages/svc/svc",
+            "text": "服务",
+            "iconPath": "static/img/icons/icon-service.png",
+            "selectedIconPath": "static/img/icons/icon-service-selected.png"
+        }, {
+            "pagePath": "pages/blind/blind",
+			"text": "阅见",
+            "iconPath": "static/img/icons/icon-logo.png",
+            "selectedIconPath": "static/img/icons/icon-logo.png"
+        },{
+            "pagePath": "pages/message/message",
+            "text": "消息",
+            "iconPath": "static/img/icons/icon-message.png",
+            "selectedIconPath": "static/img/icons/icon-message-selected.png"
+        }, {
+            "pagePath": "pages/user/user",
+            "text": "我的",
+            "iconPath": "static/img/icons/icon-my.png",
+            "selectedIconPath": "static/img/icons/icon-my-selected.png"
+        }]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#0faeff",
+        "backgroundColor": "#fbf9fe",
+		"navigationStyle":"custom",
+		"app-plus" : {
+			"titleNView" : false
+		} 
+    }
+}

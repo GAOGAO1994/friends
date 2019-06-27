@@ -1,0 +1,2 @@
+<import src="./emotion-counseling.vue.wxml" />
+    <template is="5ecce772" data="{{ ...$root['0'], $root }}"/>

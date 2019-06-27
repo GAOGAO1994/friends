@@ -1,0 +1,49 @@
+var hobbyDetals = [
+	[{
+		label:'绘画',
+	},{
+		label:'雕塑',
+	},{
+		label:'园艺',
+	},{
+		label:'宠物',
+	},{
+		label:'手工'
+	}],
+	[{
+		label:'健身',
+	},{
+		label:'田径',
+	},{
+		label:'游泳',
+	},{
+		label:'搏击',
+	},{
+		label:'篮球',
+	},{
+		label:'小球运动',
+	}],
+	[{
+		label:'烘焙',
+	},{
+		label:'甜品',
+	},{
+		label:'烧烤',
+	},{
+		label:'川菜',
+	},{
+		label:'粤菜',
+	},{
+		label:'苏菜',
+	},{
+		label:'湘菜',
+	},{
+		label:'西式料理',
+	},{
+		label:'日本料理',
+	},{
+		label:'韩式',
+	}]
+];
+
+export default hobbyDetals;

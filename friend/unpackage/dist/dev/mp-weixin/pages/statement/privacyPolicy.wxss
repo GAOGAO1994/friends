@@ -1,0 +1,22 @@
+
+.header{
+	margin-top: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.header text{
+	color: black;
+}
+.statement-wrap{
+	line-height: 24px;
+	padding-bottom: 40rpx;
+}
+
+
+

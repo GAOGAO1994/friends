@@ -1,0 +1,331 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*每个页面公共css */
+    /* uni-app默认全局使用flex布局。因为flex布局有利于跨更多平台，尤其是采用原生渲染的平台。如不了解flex布局，请参考http://www.w3.org/TR/css3-flexbox/。如不使用flex布局，请删除或注释掉本行。*/
+page,
+    page {
+        min-height: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+}
+
+.content {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        /* background-color: #efeff4; */
+		background-color: #ffffff;
+		font-size: 14px;
+}
+.padding{
+		padding: 40rpx;
+}
+.padding-h{
+		padding: 0 40rpx;
+}
+.padding-l{
+		padding-left: 40rpx;
+}
+.padding-r{
+		padding-right: 40rpx;
+}
+.header{
+		
+		margin-top: 100rpx;
+		
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+}
+.header-margin-top{
+		margin-top: 120rpx;
+}
+.header text{
+		color: black;
+}
+.black{
+		color: black;
+}
+.label{
+		color: #8F8F94;
+}
+.margin{
+		margin: 40rpx;
+}
+.margin-top{
+		margin-top: 40rpx;
+}
+.input-group {
+        background-color: #ffffff;
+        margin-top: 0rpx;
+        position: relative;
+}
+.input-group.border::before {
+        position: absolute;
+        right: 0;
+        top: 0;
+        left: 0;
+        height: 1rpx;
+        content: '';
+        -webkit-transform: scaleY(.5);
+        -ms-transform: scaleY(.5);
+            transform: scaleY(.5);
+        background-color: #c8c7cc;
+}
+.input-group.border::after {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 1rpx;
+        content: '';
+        -webkit-transform: scaleY(.5);
+        -ms-transform: scaleY(.5);
+            transform: scaleY(.5);
+        background-color: #c8c7cc;
+}
+.input-row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        position: relative;
+}
+.input-row .title {
+        height: 50rpx;
+        min-height: 50rpx;
+        padding: 15rpx 0;
+        padding-left: 20rpx;
+        line-height: 50rpx;
+		text-align: left;
+}
+.input-row.border::after {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0rpx;
+        height: 1rpx;
+        content: '';
+        -webkit-transform: scaleY(.5);
+        -ms-transform: scaleY(.5);
+            transform: scaleY(.5);
+        background-color: #c8c7cc;
+}
+.btn-row {
+        margin-top: 50rpx;
+        padding: 20rpx;
+}
+button.primary {
+        color: white;
+		border-radius: 50rpx;
+        background: -webkit-gradient(linear, left top, left bottom, from(#ae74ff), to(#7558ff));
+        background: -o-linear-gradient(top, #ae74ff, #7558ff);
+        background: linear-gradient(to bottom, #ae74ff, #7558ff); /* 标准的语法 */
+		/* box-shadow: 0 0 10upx #7558ff; */
+}
+button.outline {
+		border-radius: 50rpx;
+	    background: white;
+		border: 1px solid #C8C7CC;
+}
+button.male {
+	    color: white;
+		font-size:14px;
+		border-radius: 80rpx;
+	    background: -webkit-gradient(linear, left top, left bottom, from(#ae74ff), to(#7558ff));
+	    background: -o-linear-gradient(top, #ae74ff, #7558ff);
+	    background: linear-gradient(to bottom, #ae74ff, #7558ff); /* 标准的语法 */
+		/* box-shadow: 0px 0px 10px #ae74ff; */
+		height: 70rpx;
+		line-height: 70rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		padding: 0 50rpx;
+}
+button.female {
+		color: white;
+		font-size:14px;
+	    border-radius: 80rpx;
+	    background: -webkit-gradient(linear, left top, left bottom, from(#fe8dc8), to(#fc597b));
+	    background: -o-linear-gradient(top, #fe8dc8, #fc597b);
+	    background: linear-gradient(to bottom, #fe8dc8, #fc597b); /* 标准的语法 */
+	    /* box-shadow: 0px 0px 10px #fe8dc8; */
+	    height: 70rpx;
+	    line-height: 70rpx;
+	    display: -webkit-box;
+	    display: -webkit-flex;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-align: center;
+	    -webkit-align-items: center;
+	        -ms-flex-align: center;
+	            align-items: center;
+	    padding: 0 50rpx;
+}
+    /* button.male-disable {
+	    background: linear-gradient(to bottom, #d9c5e6, #c3a7e2);
+	}
+	button.female-disable {
+	    background: linear-gradient(to bottom, #fca0c9, #ff9cb2);
+	} */
+button.disabled {
+		color: #999999;
+}
+text.primary{
+		color: #7558ff;
+}
+.more {
+		color: #8F8F94;
+}
+.gray {
+		color: #8F8F94;
+}
+.header{
+		padding: 40rpx 0;
+}
+.header text{
+		font-size: 25px;
+		font-weight: 900;
+}
+.name-male{
+		font-size: 20px;
+		font-weight: 900;
+		background: -webkit-gradient(linear, left top, right top, from(#00c0ff), to(#7558ff));
+		background: -o-linear-gradient(left, #00c0ff, #7558ff);
+		background: linear-gradient(to right, #00c0ff, #7558ff); /* 标准的语法 */
+	    -webkit-background-clip: text;
+	    color: transparent;
+}
+.name-female{
+		font-size: 20px;
+		font-weight: 900;
+		background: -webkit-gradient(linear, left top, right top, from(#ff527f), to(#7558ff));
+		background: -o-linear-gradient(left, #ff527f, #7558ff);
+		background: linear-gradient(to right, #ff527f, #7558ff); /* 标准的语法 */
+	    -webkit-background-clip: text;
+	    color: transparent;
+}
+.nav-back-wrap{
+		width: 100%;
+		position: relative;
+}
+.nav-back-wrap image{
+		width: 100%;
+		max-height: 500rpx;
+}
+.nav-back-wrap .icon-back{
+		position: fixed;
+		left: 20rpx;
+		top: 60rpx;
+		z-index: 100;
+}
+.line{
+		width:100%;
+		height: 1rpx;
+		content: '';
+		-webkit-transform: scaleY(.5);
+		-ms-transform: scaleY(.5);
+		    transform: scaleY(.5);
+		background-color: #c8c7cc;
+}
+.under-line{
+		position: relative;
+		width: 100%;
+		height: 16px;
+}
+.under-line .text {
+		color:#8F8F94;
+		position: absolute;
+		width:280rpx;
+		left: 0;
+		right: 0;
+		top: 0;
+		background-color: #FFFFFF;
+		margin: auto;
+		text-align: center;
+}
+.under-line .split{
+		position: absolute;
+		width:100%;
+		height: 1rpx;
+		left: 0;
+		top: 6px;
+		content: '';
+		-webkit-transform: scaleY(.5);
+		-ms-transform: scaleY(.5);
+		    transform: scaleY(.5);
+		background-color: #c8c7cc;
+}
+.empty{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		margin-top: 200rpx;
+}
+.empty image{
+		width: 361rpx;
+		height:309rpx;
+}
+.empty text{
+		margin-top: 20rpx;
+}
+
